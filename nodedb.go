@@ -14,9 +14,9 @@ import (
 	"cosmossdk.io/log"
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/cosmos/iavl/cache"
-	"github.com/cosmos/iavl/fastnode"
-	"github.com/cosmos/iavl/keyformat"
+	"github.com/omni-network/iavl/cache"
+	"github.com/omni-network/iavl/fastnode"
+	"github.com/omni-network/iavl/keyformat"
 )
 
 const (

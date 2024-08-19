@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	db "github.com/cosmos/cosmos-db"
-	"github.com/cosmos/iavl"
+	"github.com/omni-network/iavl"
 )
 
 const historySize = 20

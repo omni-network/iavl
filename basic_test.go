@@ -9,7 +9,7 @@ import (
 
 	"cosmossdk.io/log"
 	db "github.com/cosmos/cosmos-db"
-	iavlrand "github.com/cosmos/iavl/internal/rand"
+	iavlrand "github.com/omni-network/iavl/internal/rand"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	db "github.com/cosmos/cosmos-db"
-	"github.com/cosmos/iavl/fastnode"
+	"github.com/omni-network/iavl/fastnode"
 )
 
 func TestRandomOperations(t *testing.T) {

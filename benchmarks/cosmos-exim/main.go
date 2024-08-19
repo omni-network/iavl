@@ -7,7 +7,7 @@ import (
 
 	"cosmossdk.io/log"
 	tmdb "github.com/cosmos/cosmos-db"
-	"github.com/cosmos/iavl"
+	"github.com/omni-network/iavl"
 )
 
 // stores is the list of stores in the CosmosHub database

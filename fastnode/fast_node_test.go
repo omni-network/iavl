@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	iavlrand "github.com/cosmos/iavl/internal/rand"
+	iavlrand "github.com/omni-network/iavl/internal/rand"
 )
 
 func TestFastNode_encodedSize(t *testing.T) {

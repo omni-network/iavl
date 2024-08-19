@@ -12,10 +12,10 @@ import (
 	"io"
 	"math"
 
-	"github.com/cosmos/iavl/cache"
+	"github.com/omni-network/iavl/cache"
 
-	"github.com/cosmos/iavl/internal/color"
-	"github.com/cosmos/iavl/internal/encoding"
+	"github.com/omni-network/iavl/internal/color"
+	"github.com/omni-network/iavl/internal/encoding"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/cosmos/iavl/fastnode"
-	ibytes "github.com/cosmos/iavl/internal/bytes"
+	"github.com/omni-network/iavl/fastnode"
+	ibytes "github.com/omni-network/iavl/internal/bytes"
 )
 
 var (

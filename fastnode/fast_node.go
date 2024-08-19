@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cosmos/iavl/cache"
-	"github.com/cosmos/iavl/internal/encoding"
+	"github.com/omni-network/iavl/cache"
+	"github.com/omni-network/iavl/internal/encoding"
 )
 
 // NOTE: This file favors int64 as opposed to int for size/counts.

@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/cosmos/iavl/cache"
+	"github.com/omni-network/iavl/cache"
 )
 
 func BenchmarkAdd(b *testing.B) {

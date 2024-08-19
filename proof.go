@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sync"
 
-	hexbytes "github.com/cosmos/iavl/internal/bytes"
-	"github.com/cosmos/iavl/internal/encoding"
+	hexbytes "github.com/omni-network/iavl/internal/bytes"
+	"github.com/omni-network/iavl/internal/encoding"
 )
 
 var bufPool = &sync.Pool{

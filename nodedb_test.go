@@ -12,7 +12,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/iavl/mock"
+	"github.com/omni-network/iavl/mock"
 )
 
 func BenchmarkNodeKey(b *testing.B) {

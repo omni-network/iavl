@@ -1,4 +1,4 @@
-module github.com/cosmos/iavl
+module github.com/omni-network/iavl
 
 go 1.20
 

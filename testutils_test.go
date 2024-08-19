@@ -13,8 +13,8 @@ import (
 	db "github.com/cosmos/cosmos-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/iavl/internal/encoding"
-	iavlrand "github.com/cosmos/iavl/internal/rand"
+	"github.com/omni-network/iavl/internal/encoding"
+	iavlrand "github.com/omni-network/iavl/internal/rand"
 )
 
 type iteratorTestConfig struct {

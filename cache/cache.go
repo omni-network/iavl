@@ -3,7 +3,7 @@ package cache
 import (
 	"container/list"
 
-	ibytes "github.com/cosmos/iavl/internal/bytes"
+	ibytes "github.com/omni-network/iavl/internal/bytes"
 )
 
 // Node represents a node eligible for caching.
