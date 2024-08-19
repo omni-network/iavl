@@ -212,8 +212,18 @@ func (i *Importer) Commit() error {
 		return fmt.Errorf("invalid node structure, found stack size %v when committing",
 			len(i.stack))
 	}
+	
+	// Wait for previous batch.
+	var err error
+	if i.inflightCommit != nil {
+		err = <-i.inflightCommit
+		i.inflightCommit = nil
+	}
+	if err != nil {
+		return err
+	}
 
-	err := i.batch.WriteSync()
+	err = i.batch.WriteSync()
 	if err != nil {
 		return err
 	}
