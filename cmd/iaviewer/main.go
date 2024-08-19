@@ -13,8 +13,8 @@ import (
 	"cosmossdk.io/log"
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/cosmos/iavl"
-	idbm "github.com/cosmos/iavl/db"
+	"github.com/omni-network/iavl"
+	idbm "github.com/omni-network/iavl/db"
 )
 
 // TODO: make this configurable?

@@ -7,7 +7,7 @@ package mock
 import (
 	reflect "reflect"
 
-	db "github.com/cosmos/iavl/db"
+	db "github.com/omni-network/iavl/db"
 	gomock "github.com/golang/mock/gomock"
 )
 

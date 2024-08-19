@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
-	iavlrand "github.com/cosmos/iavl/internal/rand"
+	dbm "github.com/omni-network/iavl/db"
+	iavlrand "github.com/omni-network/iavl/internal/rand"
 )
 
 var (

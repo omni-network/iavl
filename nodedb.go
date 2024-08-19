@@ -14,11 +14,11 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/iavl/cache"
-	dbm "github.com/cosmos/iavl/db"
-	"github.com/cosmos/iavl/fastnode"
-	ibytes "github.com/cosmos/iavl/internal/bytes"
-	"github.com/cosmos/iavl/keyformat"
+	"github.com/omni-network/iavl/cache"
+	dbm "github.com/omni-network/iavl/db"
+	"github.com/omni-network/iavl/fastnode"
+	ibytes "github.com/omni-network/iavl/internal/bytes"
+	"github.com/omni-network/iavl/keyformat"
 )
 
 const (

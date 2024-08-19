@@ -5,7 +5,7 @@ import (
 
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/cosmos/iavl/fastnode"
+	"github.com/omni-network/iavl/fastnode"
 )
 
 var errFastIteratorNilNdbGiven = errors.New("fast iterator must be created with a nodedb but it was nil")

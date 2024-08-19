@@ -9,7 +9,7 @@ import (
 	"strconv"
 
 	dbm "github.com/cometbft/cometbft-db"
-	"github.com/cosmos/iavl"
+	"github.com/omni-network/iavl"
 )
 
 const (

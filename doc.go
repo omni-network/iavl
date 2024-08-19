@@ -8,7 +8,7 @@
 //
 // Basic usage of MutableTree:
 //
-//	import "github.com/cosmos/iavl"
+//	import "github.com/omni-network/iavl"
 //	import "github.com/cosmos/cosmos-db"
 //	...
 //

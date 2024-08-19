@@ -11,7 +11,7 @@ import (
 	"cosmossdk.io/log"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
+	dbm "github.com/omni-network/iavl/db"
 )
 
 // TestDiffRoundTrip generate random change sets, build an iavl tree versions,

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
+	dbm "github.com/omni-network/iavl/db"
 )
 
 // setupExportTreeBasic sets up a basic tree with a handful of

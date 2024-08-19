@@ -11,7 +11,7 @@ import (
 	ics23 "github.com/cosmos/ics23/go"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
+	dbm "github.com/omni-network/iavl/db"
 )
 
 func TestGetMembership(t *testing.T) {

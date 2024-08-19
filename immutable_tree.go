@@ -6,7 +6,7 @@ import (
 
 	"cosmossdk.io/log"
 
-	dbm "github.com/cosmos/iavl/db"
+	dbm "github.com/omni-network/iavl/db"
 )
 
 // ImmutableTree contains the immutable tree at a given version. It is typically created by calling

@@ -13,8 +13,8 @@ import (
 	"cosmossdk.io/log"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
-	"github.com/cosmos/iavl/fastnode"
+	dbm "github.com/omni-network/iavl/db"
+	"github.com/omni-network/iavl/fastnode"
 )
 
 func TestRandomOperations(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	log "cosmossdk.io/log"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
+	dbm "github.com/omni-network/iavl/db"
 )
 
 func TestIterator_NewIterator_NilTree_Failure(t *testing.T) {

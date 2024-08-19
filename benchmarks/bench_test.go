@@ -12,8 +12,8 @@ import (
 	"cosmossdk.io/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/iavl"
-	dbm "github.com/cosmos/iavl/db"
+	"github.com/omni-network/iavl"
+	dbm "github.com/omni-network/iavl/db"
 )
 
 const historySize = 20

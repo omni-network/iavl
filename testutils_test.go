@@ -12,9 +12,9 @@ import (
 	log "cosmossdk.io/log"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
-	"github.com/cosmos/iavl/internal/encoding"
-	iavlrand "github.com/cosmos/iavl/internal/rand"
+	dbm "github.com/omni-network/iavl/db"
+	"github.com/omni-network/iavl/internal/encoding"
+	iavlrand "github.com/omni-network/iavl/internal/rand"
 )
 
 type iteratorTestConfig struct {

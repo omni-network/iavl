@@ -3,7 +3,7 @@ package iavl
 import (
 	"bytes"
 
-	"github.com/cosmos/iavl/proto"
+	"github.com/omni-network/iavl/proto"
 )
 
 type (

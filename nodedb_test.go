@@ -11,8 +11,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/cosmos/iavl/db"
-	"github.com/cosmos/iavl/mock"
+	dbm "github.com/omni-network/iavl/db"
+	"github.com/omni-network/iavl/mock"
 )
 
 func BenchmarkNodeKey(b *testing.B) {

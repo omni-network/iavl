@@ -6,7 +6,7 @@ import (
 	"hash"
 	"testing"
 
-	"github.com/cosmos/iavl"
+	"github.com/omni-network/iavl"
 	"github.com/stretchr/testify/require"
 
 	_ "crypto/sha256"
