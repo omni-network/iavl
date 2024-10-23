@@ -787,6 +787,13 @@ func (ndb *nodeDB) resetLegacyLatestVersion(version int64) {
 	ndb.legacyLatestVersion = version
 }
 
+func (ndb *nodeDB) isLatestVersion(v int64) bool {
+	ndb.mtx.Lock()
+	defer ndb.mtx.Unlock()
+
+	return ndb.latestVersion == v
+}
+
 func (ndb *nodeDB) getLatestVersion() (int64, error) {
 	ndb.mtx.Lock()
 	latestVersion := ndb.latestVersion
